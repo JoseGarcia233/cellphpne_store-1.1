@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Special+Elite&display=swap');
+
+
+
+
+#logoBlock{
+  width: 60px;
+  border-radius: 50%;
+  position: relative;
+  left: 180px;
+  top: 1px;
+  padding: 6px;
+  margin: 10px;
+}
+.btn1{
+  border-radius: 50px;
+  background-color: #fa0707;
+  width: 92px;
+  height: 45px;
+  position: relative;
+  right: 10px;
+  color: white;
+  border-color: white;
+}
+
+.slide img {
+  width: inherit;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  
+  
+}
+
+.slide {
+  white-space: nowrap;
+  width: 300px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.slide > :first-child {
+  animation-name: slide;
+  animation-duration: 12s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  33% {
+    margin-left: -100%;
+  }
+  66% {
+    margin-left: -200%;
+  }
+  
+  100% {
+    margin-left: -300%;
+  }
+}
+
+.center {
+  margin: 50px;
+  position: relative;
+  left: 92px;
+  bottom: 39px;
+  border: 25px;
+}
+
+.continerSld {
+  width: 600px;
+  height: 484px;
+  position: relative;
+  left: 330px;
+  top: 60px;
+  border-radius: 10px;
+  border-style: groove;
+  background-color: #628E90;
+  border-color: white;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Special Elite', cursive;
+}
+  
+
+
+.btn2 {
+  border-radius: 50px;
+  background-color: #5F9DF7;
+  width: 105px;
+  height: 49px;
+  position: relative;
+  left: 2px;
+  bottom: 65px;
+  color: white;
+  border-color: white;
+}
+
+.btn2:hover {
+  background-color: #B20600;
+}
+.btn1:hover {
+  background-color: #B20600;
+}
+
+.containerMain {
+  margin: 10px;
+  position: relative;
+  
+
+}
+
+
+
+
+@media (max-width:414px) {
+  .container-md{
+    background-color:#7FBCD2;
+    height: 180px;
+    width: 300px;
+    text-align: center;
+    margin-top: 50;
+    border-radius: 10px;
+    position: relative;
+    right: 5px;
+    top: 50px;
+  }
+
+  #logoBlock{
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    left: 110px;
+    top: 10px;
+  }
+  
+}
